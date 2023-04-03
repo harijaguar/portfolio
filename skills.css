@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background-color: black;
+    height: 109vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    margin-left: -85px;
+  
+}
+.logo{
+    color: rgb(219, 11, 115);
+    font-size: 35px;
+    font-family: arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    
+}
+.icon h2{
+    transition: 0.4s ease-in-out;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 65px;
+    
+    font-size: 16px;
+}
+ul li a{
+    
+    
+    text-decoration: none;
+    color:antiquewhite;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    display: block;
+    padding: 14px 16px;
+}
+ul li a:hover{
+    color: aqua;
+}
+#i{
+    margin-left: 105%;
+}
+.icon h2:hover{
+    color: rgb(229, 204, 11);
+}
+section{
+    display: flex;
+    margin: 0 3%;
+}
+
+img{
+    padding-top: 10%;    
+    padding-left: 170px;
+    
+    filter: drop-shadow(30px 10px 4px #054447);
+    border-top-left-radius: 20% 20%; border-top-right-radius: 20% 20%; border-bottom-right-radius: 20% 20%; border-bottom-left-radius: 20% 20%;
+}
+
+
+.skill{    
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    text-align:left;
+    padding-top: 2%;
+    filter: drop-shadow(0 0 0.75rem rgb(145, 217, 221));
+    box-shadow: rgba(61, 2, 38, 0.25) 0px 50px 100px -20px, rgba(61, 2, 38, 0.25) 0px 30px 60px -30px, rgba(61, 2, 38, 0.25) 0px -2px 6px 0px inset;
+    margin-left: 10%;
+    margin-top: 1%;
+    
+}
+#sh{
+    margin-top:30px;
+    padding: 10px;
+    
+    
+}
+.bar{
+    background: #353b48;
+    display: block;
+    width: 450px;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12) 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3 cubic-bezier(.25,.8 .25 1);
+}
+
+.bar .python{
+    height: 20px;
+    float:left;
+    background: linear-gradient(135deg,rgb(250, 6, 6)0%,rgba(250, 6, 6, 0.411)100%);
+}
+
+.bar .html{
+    height: 20px;
+    float:left;
+    background: linear-gradient(135deg,rgb(1, 13, 251)0%,rgba(1, 13, 251, 0.317)100%);
+}
+
+.bar .css{
+    height: 20px;
+    float:left;
+    background: linear-gradient(135deg,rgb(12, 165, 199)0%,rgba(12, 140, 209, 0.342)100%);
+}
+
+.bar .javascript{
+    height: 20px;
+    float:left;
+    background: linear-gradient(135deg,rgba(6,250,14,1)0%,rgba(6, 250, 14, 0.654)100%);
+}
+
+
+/* Animation width movement */
+.python{
+    width: 90%;
+    animation: python 3s;
+}
+
+.html{
+    width: 85%;
+    animation: html 3s;
+}
+
+.css{
+    width: 80%;
+    animation: css 3s;
+}
+
+.javascript{
+    width: 70%;
+    animation: javascript 3s;
+}
+
+/*percentage to show */
+.per90{    
+    padding-left: 90%;
+}
+.per85{    
+    padding-left: 85%;
+}
+
+.per80{
+    padding-left: 80%;
+}
+
+.per70{
+    padding-left: 70%;
+}
+
+
+/*Animation */
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 89%;
+    }
+}
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 89%;
+    }
+}
+
+
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 78%;
+    }
+}
+
+@keyframes react{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+.containar{
+
+
+}

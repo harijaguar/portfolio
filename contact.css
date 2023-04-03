@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background-color: black;
+    height: 109vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    margin-left: -85px;
+}
+.logo{
+    color: rgb(219, 11, 115);
+    font-size: 35px;
+    font-family: arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    
+
+}
+.icon h2{
+    transition: 0.4s ease-in-out;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+  
+    margin-left: 65px;
+    font-size: 16px;
+}
+ul li a{
+    
+    
+    text-decoration: none;
+    color:antiquewhite;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    display: block;
+    padding: 14px 16px;
+}
+ul li a:hover{
+    color: aqua;
+}
+#i{
+    margin-left: 105%;
+}
+.icon h2:hover{
+    color: rgb(229, 204, 11);
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    
+    padding: 12px; /* Some padding */ 
+    border: 1px 50px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #790475;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 100px;
+
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #0f94b5;
+    
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #0ca3a3;
+    padding: 20px;
+    width: 20%;
+    height: 60%;
+    margin-left: 900px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    margin-top: -469px;
+
+  }
+  
+.address{
+    
+    color: #072961;
+    font: italic 1.2em "Fira Sans", serif;
+    background: linear-gradient(#e66465, #9198e5);
+    width: 20%;
+    padding: 20px;
+    height: 50%;
+    padding-top: 50px;
+    margin-left: 230px;
+    margin-top: 5%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    
+}
+p{
+   
+    padding: 10px;
+    margin-top: -10px;
+    
+    text-align: center;
+}
+img{
+    margin-top: 15px;
+    margin-left: 40%;
+}
+
+
+.title-word {
+    animation: color-animation 4s linear infinite;
+  }
+  
+  .title-word-1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+  }
+  
+  .title-word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+  }
+  
+
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
+  
+  /* Here are just some visual styles. 🖌 */
+  
+  .title {
+    display: grid;
+    place-items: center;  
+    text-align: center;
+    height: 5vh
+  }
+  
+  .ti {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 5px;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
